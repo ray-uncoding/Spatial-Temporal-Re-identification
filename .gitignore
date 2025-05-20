@@ -1,0 +1,16 @@
+# 忽略大型檔案與常見中間檔案，避免 push 失敗
+*.pth
+*.ckpt
+*.h5
+*.mat
+*.npz
+*.npy
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+# 資料集與模型資料夾
+raw-dataset/
+dataset/
+model/*/net_*.pth
+model/*/*.mat
